@@ -14,12 +14,12 @@
 
 
 ## *5 key features of the project:*
-   #### -You can navigate all pets directly by clicking "View more" button.
-   #### -4 Categories button to select your beloved pet.
-   #### -Sort by price - You can choose pet in a descending price by pressing this button. 
-   #### -like button - You can choose a pet multi times and choosen pets will appear on the right side.
-   #### -Adopt modal- By clicking on this button you will be congratuleted to adopt the pet.
-   #### -Details button - You can see full info about the pet.
+  1. #### You can navigate all pets directly by clicking "View more" button.
+  2. #### 4 Categories button to select your beloved pet.
+  3. #### Sort by price - You can choose pet in a descending price by pressing this button. 
+  4. #### like button - You can choose a pet multi times and choosen pets will appear on the right side.
+  5. #### Adopt modal- By clicking on this button you will be congratuleted to adopt the pet.
+  6. #### Details button - You can see full info about the pet.
 
 ## *ES6 features used:*
    #### **Arrow Functions**
@@ -27,3 +27,5 @@
    #### **Array Distructuring**
    #### **Promise to convert json**
    
+## ** *Live link to the deployed project:* **
+### *Netlify:* (https://assignment-6-api-rel.netlify.app/)
