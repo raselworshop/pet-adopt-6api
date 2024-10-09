@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6-API</title>
+    <!-- cdn for font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Lato font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- styles links -->
+    <link rel="stylesheet" href="style/main.css">
+    <!--daisyUI cdn for git live link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cdn for git live link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily: {
+                'lato': ["Lato", "sans-serif"],
+                'inter': ["Inter", "sans-serif"],
+             },
+              colors: {
+                'btn-bg': 'rgba(14, 122, 129, 1)',
+                'custom-color': 'rgba(14, 122, 129, 1)',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="max-w-7xl mx-auto mb-5 md:mb-12">
+            <div class="flex justify-between items-center p-4">
+                <!-- logo -->
+                <div class="flex items-center gap-1 md:gap-3">
+                    <img src="./images/logo.webp" alt="">
+                    <h2 class="font-lato font-bold text-xl md:text-4xl">Peddy</h2>
+                </div>
+                <!-- menubar -->
+                <div>
+                    <ul class="flex items-center gap-2 md:gap-6">
+                        <li><a class="font-lato font-normal" href="#">Home</a></li>
+                        <li><a class="font-lato font-normal" href="#">Shop</a></li>
+                        <li><a class="font-lato font-normal" href="#">contact</a></li>
+                    </ul>
+                </div>
+                <!--right side icon -->
+                <div class="border-2 rounded-full p-2 md:p-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>                      
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner section start -->
+        <section class="max-w-7xl mx-auto mb-5 md:mb-12 flex flex-col justify-center items-center">
+            <!-- banner header texts -->
+            <div>
+                <p  class="font-lato font-bold text-lg md:text-2xl text-gray-500 text-center mb-2 md:mb-5">Bringing Families Together ❤️</p>
+                <h1 class="font-lato font-bold text-2xl  md:text-4xl lg:text-7xl text-black text-center">Your Path to Adoption <br> Starts Here</h1>
+            </div>
+            <!-- pet info and button -->
+            <div class="flex flex-col justify-center items-center gap-6 p-4">
+                <p class="font-lato text-gray-600 text-center">A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock, or a laboratory animal. Popular pets are often considered to have attractive/cute appearances, intelligence, and relatable personalities</p>
+                <button class="btn bg-btn-bg btn-sm md:btn-md font-lato font-bold text-white text-lg md:text-2xl"><a href="#best-deals">View More</a></button>
+            </div>
+            <!-- pet image -->
+            <div class="flex justify-between items-center">
+                <img src="./images/pet.webp" alt="">
+            </div>
+        </section>
+        <!-- adopt your best friend section -->
+        <section class="max-w-7xl mx-auto mb-5 md:mb-12 p-2">
+            <div class="mb-5">
+                <!-- header text for adopt your bes friend -->
+                <div class="flex flex-col justify-center items-center gap-5 p-4">
+                    <h1 class="capitalize font-lato text-2xl md:text-5xl text-black font-bold text-center">adopt your best friend</h1>
+                    <p class="text-center text-sm md:text-base font-lato text-gray-600">People most commonly get pets for companionship, to protect a home or property, or because of the perceived beauty or attractiveness of the animals. There are approximately 86.4 million pet cats and approximately 78.2 million pet dogs in the United States,[9][10] and a United States 2007–2008 survey showed that dog-owning households outnumbered those owning cats, but that the total number of pet cats was higher than that of dogs</p>
+                </div>
+            </div>
+            <!-- category buttons -->
+            <div id="categories-container" class="grid grid-cols-2 md:grid-cols-4 justify-between items-center gap-2 md:gap-8">
+               
+               
+            </div>
+        </section>
+        <!-- best Deals for you section -->
+        <section id="best-deals" class="max-w-7xl mx-auto mb-5 md:mb-12">
+            <!-- best deals of haeder -->
+            <div class="flex justify-between mb-5 md:mb-12">
+                <div class="p-2 flex justify-center">
+                    <h2 class="capitalize font-lato font-bold text-black text-xl md:text-2xl">best deals for you</h2>
+                </div>
+                <div class="p-2 flex justify-center">
+                    <button id="sorted" onclick="sorting()" class="btn bg-btn-bg btn-sm md:btn-md font-lato font-bold text-white text-lg md:text-2xl">Sort by Price</button>
+                </div>
+            </div>
+            <!-- cards for best deals -->
+           <div class="flex justify-between gap-5">
+                <div class="w-[65%] md:w-[75%]"> 
+                    <div id="spinner" class="hidden">
+                        <div class="loading-spinner loading loading-md lg:loading-lg">
+
+                        </div>
+                    </div>
+                    <div id="pets-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
+                    
+                    </div>
+                </div> 
+                <!-- liked/choosen pets section -->
+                <div class="w-[35%] md:w-[25%] flex flex-col p-2 border-2 rounded-xl">
+                    <div id="liked-pets-container" class="grid lg:grid-cols-2 gap-2">
+
+                    </div>
+                </div>
+
+            </div>  
+        </section>
+    </main>
+    <footer class="bg-black text-white py-12">
+        <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 p-5">
+            <!-- about web left side -->
+            <div>
+                <div class="flex items-center gap-3 mb-5">
+                    <img src="./images/logo.webp" alt="pet logo">
+                    <span class="font-lato text-3xl">Peddy</span>
+                </div>
+                <!-- infos -->
+                <div>
+                    <ul>
+                        <li class="font-lato mb-2">Location: av. Washington 165, NY CA 54003</li>
+                        <li class="font-lato mb-2">Phone: +31 85 964 47 25</li>
+                        <li class="font-lato mb-2">Email: info@yourdomain.com</li>
+                        <li class="font-lato mb-2">Openings hours: 9.00 AM - 5.00 PM</li>
+                    </ul>
+                </div>
+                <!-- social links -->
+                <div class="flex items-center gap-4 py-5">
+                    <i class="fa-brands fa-facebook-f bg-blue-500 text-3xl px-4 py-1 rounded-full"></i>
+                    <i class="fa-brands fa-x-twitter text-3xl"></i>
+                    <i class="fa-brands fa-youtube text-red-500 text-5xl"></i>
+                    <i class="fa-brands fa-instagram text-4xl"></i>
+                </div>
+            </div>
+            <!-- important links -->
+            <div>
+                <h2 class="font-inter font-bold text-lg mb-5">Useful Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Animals</a></li>
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- drop message -->
+            <div>
+                <h2 class="font-inter font-bold text-lg mb-5">Drop a Message</h2>
+                <div>
+                    <div class="flex flex-col gap-5 mb-5">
+                        <label class="input input-bordered flex items-center gap-2 bg-slate-700">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                              fill="currentColor"
+                              class="h-4 w-4 opacity-70">
+                              <path
+                                d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                              <path
+                                d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+                            </svg>
+                            <input type="text" placeholder="Email" />
+                          </label>
+                    </div>
+                    <button class="btn w-full border-none bg-btn-bg btn-sm md:btn-md lg:btn-lg font-lato px-16 font-bold text-white text-lg md:text-2xl">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- details modal -->
+    <button id="showModalData" class="btn hidden" onclick="myCustomModal.showModal()">open modal</button>
+    <dialog id="myCustomModal" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box">
+        <div id="momdal-content">
+
+        </div>
+        <div class="modal-action flex items-center justify-center">
+        <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            
+                <button class="btn text-lg font-bold bg-green-100 px-10">Close</button>
+            
+        </form>
+        </div>
+    </div>
+    </dialog>
+    <!-- adopt modal -->
+    <dialog id="adoptCustomModal" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box">
+        <img
+          class="mx-auto w-32 animate-bounce"
+          src="https://img.icons8.com/?size=80&id=TGGyAyBJKGRc&format=png"
+          alt=""
+        />
+        <div id="adopt-modal-content" class="text-center space-y-4">
+            <h2 class="text-4xl font-lato">Congratulations</h2>
+            <p class="text-3xl font-inter text-gray-500">Adoption process is starting for your choosen pet</p>
+        </div>
+        <div class="modal-action flex items-center justify-center">
+        <h2 class="text-center font font-bold text-4xl font-lato" id="count-down">3</h2>
+        </div>
+    </div>
+    </dialog>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
