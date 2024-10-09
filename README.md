@@ -28,4 +28,5 @@
    #### **Promise to convert json**
    
 ## ** *Live link to the deployed project:* **
-### *Netlify:* (https://assignment-6-api-rel.netlify.app/)
+### *[Netlify](https://assignment-6-api-rel.netlify.app/):*  (https://assignment-6-api-rel.netlify.app/)
+### *[Surge link](https://test-assignment-api.surge.sh/):* https://test-assignment-api.surge.sh/
