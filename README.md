@@ -14,11 +14,11 @@
 
 
 ### 5 key features of the project:
-   #### - You can navigate all pets directly by clicking "View more" button.
-   #### - 4 Categories button to select your beloved pet.
-   #### Sort by price - You can choose pet in a descending price by pressing this button. 
-   #### - like button - You can choose a pet multi times and choosen pets will appear on the right side.
-   #### - Adopt modal- By clicking on this button you will be congratuleted to adopt the pet.
-   #### - Details button - You can see full info about the pet.
+   #### -You can navigate all pets directly by clicking "View more" button.
+   #### -4 Categories button to select your beloved pet.
+   #### -Sort by price - You can choose pet in a descending price by pressing this button. 
+   #### -like button - You can choose a pet multi times and choosen pets will appear on the right side.
+   #### -Adopt modal- By clicking on this button you will be congratuleted to adopt the pet.
+   #### -Details button - You can see full info about the pet.
 
 
