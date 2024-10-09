@@ -2,9 +2,9 @@
 
 ### Project name:
 
-# Peddy - Pet Adoption Platform.
+# **Peddy - Pet Adoption Platform.**
 
-## Short description of the project:
+## *Short description of the project:*
 1. #### navbar:
 2. #### Banner section to guess about the site.
 3. #### About the best friend section refer to pets details.
@@ -13,7 +13,7 @@
 6. #### Footer section- where you can find company contacts, location,      dropping message option with other essecial things.
 
 
-## 5 key features of the project:
+## *5 key features of the project:*
    #### -You can navigate all pets directly by clicking "View more" button.
    #### -4 Categories button to select your beloved pet.
    #### -Sort by price - You can choose pet in a descending price by pressing this button. 
@@ -21,5 +21,9 @@
    #### -Adopt modal- By clicking on this button you will be congratuleted to adopt the pet.
    #### -Details button - You can see full info about the pet.
 
-## ES6 features used:
-   #### 
+## *ES6 features used:*
+   #### **Arrow Functions**
+   #### **Templete litarels**
+   #### **Array Distructuring**
+   #### **Promise to convert json**
+   
